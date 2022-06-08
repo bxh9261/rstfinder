@@ -28,7 +28,7 @@ The only way to install RSTFinder is by using the `conda` package manager. If yo
     conda create -n rstenv -c conda-forge -c ets python=3.8 rstfinder
     ```
 
-3. Activate this conda environment by running `conda activate rstfinder`. 
+3. Activate this conda environment by running `conda activate rstenv`. 
 
 4. Now install the `python-zpar` package via `pip` in this environment. This package allows us to use the ZPar constituency parser (more later).
 
